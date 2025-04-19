@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "exclude": [
+    "node_modules",
+    "dist",
+    "public"
+  ],
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "./src",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    // Enable all strict type checking options
+    "strict": true,
+    // Set emitted JavaScript language version
+    "target": "ES2022"
+  }
+}
